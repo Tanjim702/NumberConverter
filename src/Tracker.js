@@ -14,7 +14,7 @@ class Tracker extends Component {
                 justifyContent:'center'
             }}>
                 <header>
-                    <h1 style={{display:'inline-block'}}>NumberConverter</h1>
+                    <h1 style={{display:'block'}}>NumberConverter</h1>
                     <small>By your friend Tanjim <span><img src={images} alt="" style={{width:'20px',height:'20px'}}/></span></small>
                 </header>
                 <main>
