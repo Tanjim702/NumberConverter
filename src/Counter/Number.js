@@ -66,7 +66,7 @@ class Number extends Component {
                     return(
                         <div key={numberKey}>
                             <label htmlFor="">{this.toCapitalCase(numberKey)}</label>
-                            <input
+                            <textarea
                             name={numberKey}
                             onChange={(e)=>{this.handleChange(e)}} 
                             value={this.state[numberKey]}
