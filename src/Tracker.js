@@ -6,6 +6,7 @@ class Tracker extends Component {
         return (
             <div style={{
                 display:'flex',
+                padding:'20px',
                 width:'100%',
                 flexDirection:'column',
                 height:'100vh',
