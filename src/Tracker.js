@@ -1,24 +1,27 @@
 import React, { Component } from 'react'
 import Number from './Counter/Number'
-
+import images from './assets/images/smile.webp'
 class Tracker extends Component {
     render() {
         return (
-            <div>
+            <div style={{
+                display:'flex',
+                width:'100%',
+                flexDirection:'column',
+                height:'100vh',
+                alignItems:'center',
+                justifyContent:'center'
+            }}>
                 <header>
-                    <h1>Stack Counter</h1>
+                    <h1 style={{display:'inline-block'}}>NumberConverter</h1>
+                    <small>By your friend Tanjim <span><img src={images} alt="" style={{width:'20px',height:'20px'}}/></span></small>
                 </header>
                 <main>
                     <section>
                         <Number/>
                     </section>
-                    <section>
-                        <textarea name="" id="" cols="30" rows="10"></textarea><textarea name="" id="" cols="30" rows="10"></textarea>
-                    </section>
+
                 </main>
-                <footer>
-                    License and terms of use
-                </footer>
             </div>
         )
     }
