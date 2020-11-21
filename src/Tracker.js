@@ -6,14 +6,13 @@ class Tracker extends Component {
         return (
             <div style={{
                 display:'flex',
-                padding:'20px',
                 width:'100%',
                 flexDirection:'column',
                 height:'100vh',
                 alignItems:'center',
                 justifyContent:'center'
             }}>
-                <header>
+                <header style={{padding:'20px'}}>
                     <h1 style={{display:'block'}}>NumberConverter</h1>
                     <small>By your friend Tanjim <span><img src={images} alt="" style={{width:'20px',height:'20px'}}/></span></small>
                 </header>
