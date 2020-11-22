@@ -52,6 +52,9 @@ class Number extends Component {
     }
     addBase(event) {
         event.preventDefault();
+        if(parseInt(event.target[0].value) > 36 || parseInt(event.target[0].value < 2)){
+        return alert('Not allowed!!')
+        }
         const baseName = `Base${event.target[0].value}`
         this.setState({
             [baseName]: this.state.decimal.toString(parseInt(event.target[0].value)),
